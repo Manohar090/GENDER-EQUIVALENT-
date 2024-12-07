@@ -1,0 +1,158 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff66b3, #ff99cc); /* Empowering pink gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login container styles */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    padding: 40px;
+    text-align: center;
+    border: 2px solid #ff80bf; /* Light pink border for focus */
+    transition: transform 0.2s ease-in-out;
+}
+
+.login-container:hover {
+    transform: scale(1.03);
+}
+
+/* Header styles */
+.login-box h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #d63384; /* Bold pink for header text */
+    font-weight: bold;
+}
+
+/* Input container styles */
+.input-container {
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-container label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    opacity: 0.7;
+    transition: all 0.3s;
+    pointer-events: none;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ffe6f2; /* Soft pink for input background */
+    outline: none;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+/* Focus effect for inputs */
+.input-container input:focus {
+    border-color: #d63384; /* Bold pink for focus */
+    background-color: #fff;
+}
+
+.input-container input:focus + label {
+    top: -12px;
+    font-size: 12px;
+    color: #d63384;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+/* Remember Me styles */
+.remember-me {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.remember-me label {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Forgot Password styles */
+.forgot-password a {
+    font-size: 14px;
+    color: #d63384; /* Pink for links */
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Login button styles */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #d63384; /* Bold pink for the button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #bf206d; /* Darker pink for hover */
+    transform: translateY(-2px);
+}
+
+/* Signup link styles */
+.signup-link p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.signup-link a {
+    color: #d63384;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .login-container {
+        padding: 30px;
+    }
+
+    .login-box h1 {
+        font-size: 22px;
+    }
+
+    button[type="submit"] {
+        font-size: 14px;
+    }
+}
