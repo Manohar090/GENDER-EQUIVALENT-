@@ -129,3 +129,31 @@
             <p>Our mission is to build a safer environment where women can thrive fearlessly, backed by a network of counselors, safety specialists, and support systems that prioritize their dignity, security, and empowerment. Together, we strive for a world where every woman feels protected and respected.</p>
       
         </div>
+        <div class="team-member">
+            <img src="t1.jpg" alt="Vemuri Manohar">
+            <div class="team-member-details">
+                <h3>Vemuri Manohar</h3>
+                <p>Lead Developer</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="t2.jpg" alt="Navya">
+            <div class="team-member-details">
+                <h3>Navya</h3>
+                <p>Safety Expert</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="t3.jpg" alt="Vennela Kavya">
+            <div class="team-member-details">
+                <h3>Vennela Kavya</h3>
+                <p>Customer Support Lead</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; MVN Safety Services.</p>
+    </footer>
+</body>
+</html>

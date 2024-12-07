@@ -56,7 +56,7 @@
         <p>24/7 Support</p>
     </div>
     <div class="feature">
-        <a href="/more-features">
+        <a href="/conditions">
             <img src="https://cdn-icons-png.flaticon.com/512/786/786479.png" alt="See More">
             <p>See More Features</p>
         </a>
