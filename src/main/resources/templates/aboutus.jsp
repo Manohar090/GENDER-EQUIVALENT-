@@ -14,9 +14,9 @@
         }
 
         header {
-            background-color: #ff80ab;
+            background-color: #00e5ff;
             color: #000000;
-            padding: 20px;	
+            padding: 20px;  
             text-align: center;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
@@ -43,7 +43,7 @@
 
         h2 {
             color: #000000;
-            border-bottom: 2px solid #f48fb1;
+            border-bottom: 2px solid #4e92f1;
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
@@ -69,7 +69,7 @@
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            border: 3px solid #ff4081;
+            border: 3px solid #ff0000;
             margin-right: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s;
@@ -106,7 +106,7 @@
         }
 
         footer {
-            background-color: #ff80ab;
+            background-color: #00e5ff;
             color: #000000;
             text-align: center;
             padding: 15px;
@@ -123,37 +123,9 @@
 
     <div class="container">
         <div class="journey-container">
-            <h2>Our Mission</h2>
-            <p>Our Women Safety Application was created with a mission to empower and protect women everywhere by providing them with reliable and effective safety tools. We understand the importance of ensuring personal security and peace of mind in today’s world, and we aim to contribute towards safer communities for women.</p>
-            <p>Our application includes innovative features such as emergency alerts, real-time location tracking, and instant communication with trusted contacts and local authorities. We are dedicated to leveraging technology to enhance safety and offer a seamless experience that women can trust in any situation.</p>
-            <p>With our dedicated team of developers, safety experts, and customer support professionals, we continuously strive to improve our application to meet the evolving needs of our users and provide the highest level of protection possible.</p>
+            <h2>Our Journey</h2>
+            <p>Our Women Safety Application is dedicated to empowering and protecting women by providing innovative and reliable solutions to enhance their safety and well-being. We aim to create a platform that not only responds to emergencies but also fosters awareness, support, and community resilience.</p>
+            <p>With a user-centric approach, our application integrates real-time assistance, resources, and reporting mechanisms, ensuring that women feel safe and supported in any situation. We believe in promoting gender equality and standing against all forms of violence by leveraging technology to connect individuals with the help they need.</p>
+            <p>Our mission is to build a safer environment where women can thrive fearlessly, backed by a network of counselors, safety specialists, and support systems that prioritize their dignity, security, and empowerment. Together, we strive for a world where every woman feels protected and respected.</p>
+      
         </div>
-
-        <div class="team-member">
-            <img src="t1.jpg" alt="Lead Developer">
-            <div class="team-member-details">
-                <h3>Jane Doe</h3>
-                <p>Lead Developer</p>
-            </div>
-        </div>
-        <div class="team-member">
-            <img src="t2.jpg" alt="Safety Expert">
-            <div class="team-member-details">
-                <h3>Dr. Emily Carter</h3>
-                <p>Safety Expert</p>
-            </div>
-        </div>
-        <div class="team-member">
-            <img src="t3.jpg" alt="Customer Support Lead">
-            <div class="team-member-details">
-                <h3>Sarah Johnson</h3>
-                <p>Customer Support Lead</p>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; Women Safety Application. All rights reserved.</p>
-    </footer>
-</body>
-</html>
